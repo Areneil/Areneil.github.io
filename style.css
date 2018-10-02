@@ -1,0 +1,238 @@
+body{
+	background-color: #E8F3F8;
+	padding: 0 !important;
+	margin: 0 !important;
+	color: #13253e;
+	font-family: 'Andika', sans-serif;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.nav-bar{
+	position: fixed;
+	background-color: #81A8B8;
+	width: 100%;
+	height: 40px;
+	border-bottom: 5px solid #A4BCC2;
+	box-shadow: 0 -5px 12px 8px #608696;
+	overflow: hidden;
+}
+
+.logo{
+	font-family: 'Amatic SC', cursive;
+	font-size: 32px;
+	padding-left: 30px;
+	width: auto;
+	float: left;
+}
+
+ul{
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	float: right;
+	width: auto;
+	list-style-type: none;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a:link{
+	text-decoration: none;
+	color: #13253e;
+}
+
+li a:visited{
+	color: #13253e;
+}
+
+li a:hover {
+    background-color: #DBE6EC;
+	color: black;
+}
+
+.logo a:link{
+	text-decoration: none;
+	color: #13253e;
+}
+
+.logo a:visited{
+	color: #13253e;
+}
+
+.logo a:hover {
+	color: #13253e;
+}
+
+.image{
+	padding-top: 20px;
+	width: 100%;
+	height: 400px;
+	background-image: url("img/mountain.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 430px;
+}
+
+.image h1{
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	margin-top: 80px;
+	background-color: rgb(237, 242, 249, 0.5);
+	font-weight: normal;
+}
+
+.image h3{
+	font-family: 'Amatic SC', cursive;
+	text-align: center;	
+	background-color: rgb(237, 242, 249, 0.5);
+	font-weight: normal;
+}
+
+.break{
+	background-color: #A4BCC2;
+	width: 100%;
+	height: 73px;
+}
+
+.main-content{
+	background-color: #DBE6EC;
+	font-size: 20px;
+	padding: 10px 20px;
+	text-align: justify;
+	width: 70%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bot-container{
+	position: relative;
+	float: left;
+	overflow:hidden;
+	margin-top: 30px;
+	width: 100%;
+	background-color: #A4BCC2;
+	height: 73px;
+}
+
+.bot-container ul{
+
+	float: left;
+	position: relative;
+	left: 50%;
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.bot-container ul li{
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 50%;
+}
+
+.bot-container ul li a{
+	display:block;
+    padding: 17px 20px;
+    text-decoration:none;
+    line-height:1.3em;
+}
+
+/* FACEBOOK */
+.fb a:link{
+	background-color: #3b5999;
+	color: white;
+	border: 1px solid #13253e;
+	border-radius: 10px;
+	box-sizing: box-border;
+}
+
+.fb a:visited{
+	background-color: #3b5999;
+	color: #ffffff;
+	border: 1px solid #3b5999;
+	border-radius: 10px;
+	box-sizing: box-border;
+}
+
+.fb a:hover{
+	background-color: #34518e;
+	color: #eeeeee;
+	border: 1px solid #34518e;
+	border-radius: 10px;
+	box-sizing: box-border;	
+}
+
+/* TWITTER */
+.tw a:link{
+	background-color: #55acee;
+	color: white;
+	border: 1px solid #55acee;
+	border-radius: 10px;
+	box-sizing: box-border;
+}
+
+.tw a:visited{
+	background-color: #55acee;
+	color: #ffffff;
+	border: 1px solid #55acee;
+	border-radius: 10px;
+	box-sizing: box-border;
+}
+
+.tw a:hover{
+	background-color: #449bdd;
+	color: #eeeeee;
+	border: 1px solid #449bdd;
+	border-radius: 10px;
+	box-sizing: box-border;	
+}
+
+/* INSTAGRAM */
+.inst a:link{
+	background-color: #e4405f;
+	color: white;
+	border: 1px solid #e4405f;
+	border-radius: 10px;
+	box-sizing: box-border;
+}
+
+.inst a:visited{
+	background-color: #e4405f;
+	color: #ffffff;
+	border: 1px solid #e4405f;
+	border-radius: 10px;
+	box-sizing: box-border;
+}
+
+.inst a:hover{
+	background-color: #d3304e;
+	color: #eeeeee;
+	border: 1px solid #d3304e;
+	border-radius: 10px;
+	box-sizing: box-border;	
+}
+
+/* FOOTER */
+footer{
+	text-align: center;
+	font-size: 17px;
+	padding: 10px 0 5px 0;
+	background-color: #DBE6EC;
+}
